@@ -185,7 +185,7 @@ header {
 
 .site-description {
   border-bottom: 1px solid #e8e8e8;
-  display: block;
+  display: none;
   font-size: 1.8em;
   line-height: 1.2em;
   margin-top: 10px;
@@ -202,7 +202,7 @@ header {
   float: left;
   margin-right: 2.35765%;
   width: 31.76157%;
-  height: 220px;
+  height: 240px;
   margin-bottom: 20px;
   position: relative; }
   .idea:last-child {
@@ -211,7 +211,7 @@ header {
     margin-right: 0; }
   .idea .idea-name {
     text-align: left;
-    font-size: 2em;
+    font-size: 1.7em;
     font-weight: 600;
     letter-spacing: 1px;
     padding: 30px 0 0 30px; }
@@ -231,11 +231,16 @@ header {
   bottom: 0;
   border-radius: 0 0 10px 10px;
   color: #fff;
-  height: 40px;
+  height: 46px;
   position: absolute;
   width: 100%; }
   .type-container p {
     text-align: left;
-    padding: 11px 0 0 30px;
+    padding: 15px 0 0 30px;
     text-transform: uppercase;
     font-weight: 600; }
+  .type-container i {
+    position: absolute;
+    right: 30px;
+    font-size: 1.5em;
+    top: 13px; }
